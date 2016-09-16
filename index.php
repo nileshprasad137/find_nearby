@@ -99,33 +99,30 @@
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
@@ -143,37 +140,33 @@
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
-
 
 
   </div>
@@ -186,33 +179,30 @@
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" src="..." alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h4 class="card-title">Hospital</h4>
+            
           </div>
         </div>
     </div>
