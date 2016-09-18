@@ -92,7 +92,7 @@
   </div>
 </div>
 
-
+<!--
 <div class="container">    
   <div class="row" style="margin-top:30px">
 
@@ -111,15 +111,14 @@
         <div class="card card-inverse">
           <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
           <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
+            <h4 class="card-title">Hospital</h4>            
           </div>
         </div>
     </div>
     <div class="col-sm-4">
 
         <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
+          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">          
           <div class="card-img-overlay">
             <h4 class="card-title">Hospital</h4>
             
@@ -132,85 +131,146 @@
   </div>
 </div>
 
+-->
 
 
-<div class="container">    
-  <div class="row" style="margin-top:30px">
-
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+<div class="container" style="margin-top:50px;";>    
+  <div class="row">
+    <div class="col-sm-4" >
+      <div class="panel panel-success" >
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Hospital</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">FireStation</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Zoo</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-
-
   </div>
-</div>
+</div><br>
 
 
-<div class="container">    
-  <div class="row" style="margin-top:30px">
-
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+<div class="container" style="margin-top:50px;";>    
+  <div class="row">
+    <div class="col-sm-4" >
+      <div class="panel panel-success" >
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Furniture Store</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">School</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Shopping Mall</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
     </div>
-
-
-
   </div>
-</div>
+</div><br>
+
+
+<div class="container" style="margin-top:50px;";>    
+  <div class="row">
+    <div class="col-sm-4" >
+      <div class="panel panel-success" >
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Taxi-Stand</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">University</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Gym</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+
+<div class="container" style="margin-top:50px;";>    
+  <div class="row">
+    <div class="col-sm-4" >
+      <div class="panel panel-success" >
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Restaurant</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Department-Store</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Pharmacy</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+<div class="container" style="margin-top:50px;";>    
+  <div class="row">
+    <div class="col-sm-4" >
+      <div class="panel panel-success" >
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Restaurant</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Department-Store</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center; font-weight:bold">Pharmacy</div>
+        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+
 
 
 
