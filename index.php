@@ -92,46 +92,6 @@
   </div>
 </div>
 
-<!--
-<div class="container">    
-  <div class="row" style="margin-top:30px">
-
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>            
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-
-        <div class="card card-inverse">
-          <img class="card-img" class="img-responsive" style="width:100%; height:150px " src="places_icons/hospital.png" alt="Card image">          
-          <div class="card-img-overlay">
-            <h4 class="card-title">Hospital</h4>
-            
-          </div>
-        </div>
-    </div>
-
-
-
-  </div>
-</div>
-
--->
 
 
 <div class="container" style="margin-top:50px;";>    
