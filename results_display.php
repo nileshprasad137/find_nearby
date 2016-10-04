@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  <script src="https://use.fontawesome.com/4ade0e5ef1.js"></script>
   <style type="text/css">
     
 
@@ -203,9 +203,9 @@
 
 
      <div class="col-sm-6"> 
-        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b>
-          <br><br>
-        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
+        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b><hr>
+          
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> <hr>
      </div>      
 </footer>
 

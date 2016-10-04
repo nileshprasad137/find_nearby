@@ -132,7 +132,7 @@
           </div>
 
           <div class="col-xs-6 col-sm-6 col-md-6">
-              <input type="submit" name="submit_mes" value="submit" class="btn btn-lg btn-success btn-block">
+              <input type="submit" name="submit_mes" value="submit" class="btn btn-lg btn-success btn-block"><hr>
           </div>
 
         </form>
@@ -150,9 +150,9 @@
 
 
      <div class="col-sm-6"> 
-        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b>
-          <br><br>
-        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
+        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b><hr>
+          
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> <hr>
      </div>      
 </footer>
 
