@@ -33,6 +33,13 @@
       background-color: green;
      } 
 
+     footer {
+      background-color:#f2f2f2;
+      padding: 25px;
+      margin-top:50px; 
+      margin-bottom:20px;
+    }
+
 
      
 
@@ -181,6 +188,13 @@
 
   </div>
 
+<footer class="container-fluid text-center">
+  <p>Copyright&copy NILESH PRASAD</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
 
 </body>
 </html>

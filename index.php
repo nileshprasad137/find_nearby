@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  
+  <script src="https://use.fontawesome.com/4ade0e5ef1.js"></script>
   <style type="text/css">
 
     .jumbotron 
@@ -40,6 +41,17 @@
      .active{
       background-color: green;
      } 
+
+     footer {
+      background-color:#B8DD98;
+
+      padding: 25px;
+      margin-top:50px;       
+      height:150px;
+      
+
+
+    }
 
 
      
@@ -97,7 +109,7 @@
 </div>
 
 
- <div class="col-sm-8" style="margin-top:50px">
+ <div class="container" style="margin-top:50px;">
         <!-- form begins-->
         <form role="form"  method="POST" action="results_display.php">
           
@@ -108,7 +120,7 @@
           <div class="form-group">
             <select class="form-control" name="keyword">                                                
               <option value="fire station">Fire Station</option><!--1-->
-              <option value="doctor"><a href="doctor.php">Doctor</option><!--2-->
+              <option value="doctor"><a href="doctor.php">Doctor</a></option><!--2-->
               <option value="hotel">Hotel</option><!--3-->
               <option value="metro station">Metro Station</option><!--4-->
               <option value="park">Park</option><!--5-->
@@ -125,12 +137,24 @@
 
         </form>
         <!-- end form-->
-      </div>
-<!--
+ </div>      
+      
+
+<footer class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">   
+       <ul class="links" >        
+        <a href="https://github.com/nileshprasad137/find_nearby"><span class="fa fa-github" style="font-size:75px;"></span><b>Fork me on GitHub</a></b></li>        
+      </ul>
+    </div>
 
 
--->
-
+     <div class="col-sm-6"> 
+        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b>
+          <br><br>
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
+     </div>      
+</footer>
 
 
 
