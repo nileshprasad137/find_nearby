@@ -54,7 +54,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">FindNearby</a></li>
+        <li class="active"><a href="index.php">FindNearby</a></li>
    
         <li><a href="#"><span class="glyphicon glyphicon-search" ></span> Search</a></li>     
       </ul>
@@ -160,7 +160,7 @@
                    
                           echo '
                           <div class="container">
-                              <div class="jumbotron3" style="background-color:#9CDEBA;font-size:20px;margin-left:20px;padding-left:20px;">
+                              <div class="jumbotron3" style="background-color:#9CDEBA;font-size:20px;margin-left:20px;padding-left:20px;padding-top:25px;padding-bottom:25px;">
                                   <b>'.$obj["results"][$i]["name"].
                               '</div><br><br>';
                           echo '<ul type="square" >
