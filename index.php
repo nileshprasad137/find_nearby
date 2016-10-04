@@ -41,12 +41,16 @@
       background-color: green;
      } 
 
+
+     
+
+
   </style>
  </head>
 
  <body>
-
- <nav class="navbar navbar-inverse navbar-fixed-top">
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -93,142 +97,39 @@
 </div>
 
 
+ <div class="col-sm-8" style="margin-top:50px">
+        <!-- form begins-->
+        <form role="form"  method="POST" action="results_display.php">
+          
+          <div class="form-group" >
+            <input type="text" class="form-control" name="location" placeholder="Enter the district or city name" style="align:center"/>                                       
+          </div>
+          
+          <div class="form-group">
+            <select class="form-control" name="keyword">                                                
+              <option value="fire station">Fire Station</option><!--1-->
+              <option value="doctor"><a href="doctor.php">Doctor</option><!--2-->
+              <option value="hotel">Hotel</option><!--3-->
+              <option value="metro station">Metro Station</option><!--4-->
+              <option value="park">Park</option><!--5-->
+              <option value="police station">Police Station</option><!--6-->                    
+              <option value="eateries">Restaurant</option><!--7-->
+              <option value="shopping mall">Shopping Mall</option><!--8-->
+            </select> 
+ 
+          </div>
 
-<div class="container" style="margin-top:50px;";>    
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-success" >
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Hospital</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">FireStation</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Zoo</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-  </div>
-</div><br>
+          <div class="col-xs-6 col-sm-6 col-md-6">
+              <input type="submit" name="submit_mes" value="submit" class="btn btn-lg btn-success btn-block">
+          </div>
 
-
-<div class="container" style="margin-top:50px;";>    
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-success" >
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Furniture Store</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
+        </form>
+        <!-- end form-->
       </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">School</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Shopping Mall</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-  </div>
-</div><br>
+<!--
 
 
-<div class="container" style="margin-top:50px;";>    
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-success" >
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Taxi-Stand</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">University</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Gym</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-
-
-<div class="container" style="margin-top:50px;";>    
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-success" >
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Restaurant</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Department-Store</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Pharmacy</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-
-<div class="container" style="margin-top:50px;";>    
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-success" >
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Restaurant</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Department-Store</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading" style="text-align:center; font-weight:bold">Pharmacy</div>
-        <div class="panel-body"><img src="places_icons/hospital.png" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="#myModal" role="button" data-toggle="modal" class="btn btn-success btn-block">SEARCH!</a></div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
+-->
 
 
 
