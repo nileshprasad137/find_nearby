@@ -34,10 +34,14 @@
      } 
 
      footer {
-      background-color:#f2f2f2;
+      background-color:#B8DD98;
+
       padding: 25px;
-      margin-top:50px; 
-      margin-bottom:20px;
+      margin-top:50px;       
+      height:150px;
+      
+
+
     }
 
 
@@ -188,12 +192,21 @@
 
   </div>
 
-<footer class="container-fluid text-center">
-  <p>Copyright&copy NILESH PRASAD</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
+
+<footer class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">   
+       <ul class="links" >        
+        <a href="https://github.com/nileshprasad137/find_nearby"><span class="fa fa-github" style="font-size:75px;"></span><b>Fork me on GitHub</a></b></li>        
+      </ul>
+    </div>
+
+
+     <div class="col-sm-6"> 
+        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b>
+          <br><br>
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
+     </div>      
 </footer>
 
 </body>
