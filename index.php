@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
@@ -96,15 +97,15 @@
 
 <div class="jumbotron">
   <div class="container-fluid text-center" style="height: 470px; ">
-    <h1 style="color:white; font-family:'Bungee Inline', cursive; margin-top:100px;">Find Nearby</h1>      
+    <h1 style="color:white; font-family:'Bungee Inline', cursive; margin-top:100px;">Find Nearby</h1> <hr>     
     <p style="color:white; font-family:'Architects Daughter', cursive;">Smart way to manage places around you </p>
   </div>
 </div>
 
 
-<div class="container-fluid text-center" style="background-color: #CFEDC9">
+<div class="container-fluid text-center" style="background-color:#A7C2E2;">
   <div id="brief">
-  <h2 style="text-align: center; color:green ;  ";>Choose what to find nearby..</h2>
+  <h2 style="text-align: center; color:#080C17;font-family: 'Quantico', sans-serif;  ";>Choose what to find nearby..</h2>
   <p style="font-size: 18px; ">
     
   </p>  
