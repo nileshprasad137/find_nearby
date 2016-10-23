@@ -133,8 +133,7 @@
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';              
                       
               $cont = file_get_contents($link);
-              $obj = json_decode($cont,true);
-              
+              $obj = json_decode($cont,true);              
               /*
               $doctor=$obj["results"][0]["name"];
               $doctor_address=$obj["results"][0]["vicinity"];

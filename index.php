@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
@@ -31,7 +34,7 @@
     color:green;
     height: 50px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 20px;
       
 
@@ -93,8 +96,8 @@
 
 <div class="jumbotron">
   <div class="container-fluid text-center" style="height: 470px; ">
-    <h1 style="color:white; font-family:serif; margin-top:100px;">Find Nearby</h1>      
-    <p style="color:white; font-family:Helvetica Neue;">Smart way to manage places around you </p>
+    <h1 style="color:white; font-family:'Bungee Inline', cursive; margin-top:100px;">Find Nearby</h1>      
+    <p style="color:white; font-family:'Architects Daughter', cursive;">Smart way to manage places around you </p>
   </div>
 </div>
 
@@ -155,10 +158,6 @@
         <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> <hr>
      </div>      
 </footer>
-
-
-
-
 
 </body>
 </html>
