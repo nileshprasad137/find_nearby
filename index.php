@@ -46,16 +46,18 @@
       background-color: green;
      } 
 
-     footer {
-      background-color:#B8DD98;
-      position: relative:;
-
-      padding: 25px;
-      margin-top:50px;       
+     footer
+    {
+      margin-top: 100px;
+      background-color: #121212;
+      position:relative;
+      padding: 25px;           
       height:150px;
-      
-
-
+      color: white;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
 
 
@@ -104,7 +106,7 @@
 </div>
 
 
-<div class="container-fluid text-center" style="background-color:#A7C2E2;">
+<div class="container-fluid text-center" style="background-color:#A7C2E2; ">
   <div id="brief">
   <h2 style="text-align: center; color:#080C17;font-family: 'Quantico', sans-serif;  ";>Choose what to find nearby..</h2>
   <p style="font-size: 18px; ">
@@ -167,7 +169,7 @@
      <div class="col-sm-6"> 
         <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b><hr>
           
-        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> <hr>
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
      </div>      
 </footer>
 

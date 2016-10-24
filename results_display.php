@@ -37,12 +37,12 @@
 
      footer
     {
-      background-color:#B8DD98;
+      background-color: #121212;
       position:relative;
       padding: 25px;           
       height:150px;
-
-      position: absolute;
+      color: white;
+      position: relative;
       right: 0;
       bottom: 0;
       left: 0;
@@ -222,9 +222,15 @@
      <div class="col-sm-6"> 
         <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b><hr>
           
-        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> <hr>
+        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
      </div>      
 </footer>
+
+
+
+
+ 
+
 
 </body>
 </html>
