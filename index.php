@@ -123,14 +123,24 @@
           
           <div class="form-group">
             <select class="form-control" name="keyword">                                                
-              <option value="fire station" name="fire_station">Fire Station</option><!--1-->
-              <option value="doctor" name="doctor">Doctor</a></option><!--2-->
-              <option value="hotel" name="">Hotel</option><!--3-->
-              <option value="metro station" name="">Metro Station</option><!--4-->
-              <option value="park" name="">Park</option><!--5-->
-              <option value="police station" name="">Police Station</option><!--6-->                    
-              <option value="eateries" name="">Restaurant</option><!--7-->
-              <option value="shopping mall" name="">Shopping Mall</option><!--8-->
+              <option value="fire_station" >Fire Station</option><!--1-->
+              <option value="doctor" >Doctor</a></option><!--2-->
+              <option value="hospital" >Hospital</option><!--3-->
+              <option value="atm" >ATM</option><!--4-->
+              <option value="park" >Park</option><!--5-->
+              <option value="police" >Police Station</option><!--6-->                    
+              <option value="restaurant" >Restaurant</option><!--7-->
+              <option value="shopping_mall" >Shopping Mall</option><!--8-->
+              <option value="amusement_park" >Amusement Park</option><!--9-->
+              <option value="bank" >Bank</option><!--10-->
+              <option value="movie_theater" >Movie Theater</option><!--11-->
+              <option value="clothing_store" >Clothing Store</option><!--12-->
+              <option value="department_store" >Department Store</option><!--13-->
+              <option value="electronics_store" >Electronics Store</option><!--14-->
+              <option value="gas_station" >Gas Station</option><!--15-->
+              <option value="taxi_stand" >Taxi Stand</option><!--16-->
+              <option value="pharmacy" >Pharmacy</option><!--17-->
+              
             </select> 
  
           </div>
