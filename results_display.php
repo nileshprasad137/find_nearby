@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -15,7 +17,7 @@
 
      .navbar
      {    
-      background-color: green;
+      background-color: #121212;
       padding-right: 50px;
       padding-left: 50px;
       padding-bottom: 30px;
@@ -23,7 +25,7 @@
       color:green;
       height: 100px;
       text-align: center;
-      font-family: sans-serif;
+      font-family: 'Carter One', cursive;
       font-size: 20px;
 
      }
@@ -127,10 +129,22 @@
               */
 
               $formal_location=$loc_obj["results"][0]["formatted_address"];
-              echo "<br><br><b>We are showing results for this location(".$formal_location.")<br><i>Were you looking for the same?</i><br>";
+
+              echo "<br>
+              <div class='container-fluid' style='font-family:'Marcellus',serif;'>
+                  <b><i>We are showing results for this location<b>(".$formal_location.")</b><i>
+                  <br><i>Were you looking for the same?</i><br></div>";
               echo "<br><br>";
           
-              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';              
+              /*-----to be put inside function--------
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
+              */  
+              
+                        $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$_POST['keyword']. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+
+                  
+
+              //$link= place_type_decide($lat,$lng);  //place_type_decide is a user-defined function ....defined below.
                       
               $cont = file_get_contents($link);
               $obj = json_decode($cont,true);              
@@ -184,12 +198,14 @@
                }
                
              }
+
+             
        
       ?>      
         
       </div>
-
   </div>
+
 
 
 <footer class="container-fluid">

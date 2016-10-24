@@ -123,14 +123,14 @@
           
           <div class="form-group">
             <select class="form-control" name="keyword">                                                
-              <option value="fire station">Fire Station</option><!--1-->
-              <option value="doctor"><a href="doctor.php">Doctor</a></option><!--2-->
-              <option value="hotel">Hotel</option><!--3-->
-              <option value="metro station">Metro Station</option><!--4-->
-              <option value="park">Park</option><!--5-->
-              <option value="police station">Police Station</option><!--6-->                    
-              <option value="eateries">Restaurant</option><!--7-->
-              <option value="shopping mall">Shopping Mall</option><!--8-->
+              <option value="fire station" name="fire_station">Fire Station</option><!--1-->
+              <option value="doctor" name="doctor">Doctor</a></option><!--2-->
+              <option value="hotel" name="">Hotel</option><!--3-->
+              <option value="metro station" name="">Metro Station</option><!--4-->
+              <option value="park" name="">Park</option><!--5-->
+              <option value="police station" name="">Police Station</option><!--6-->                    
+              <option value="eateries" name="">Restaurant</option><!--7-->
+              <option value="shopping mall" name="">Shopping Mall</option><!--8-->
             </select> 
  
           </div>
