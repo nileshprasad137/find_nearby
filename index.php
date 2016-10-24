@@ -48,6 +48,7 @@
 
      footer {
       background-color:#B8DD98;
+      position: relative:;
 
       padding: 25px;
       margin-top:50px;       

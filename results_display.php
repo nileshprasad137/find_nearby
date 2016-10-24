@@ -35,15 +35,17 @@
       background-color: green;
      } 
 
-     footer {
+     footer
+    {
       background-color:#B8DD98;
-
-      padding: 25px;
-      margin-top:50px;       
+      position:relative;
+      padding: 25px;           
       height:150px;
-      
 
-
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
 
 
