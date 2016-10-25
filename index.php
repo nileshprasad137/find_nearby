@@ -53,14 +53,12 @@
      .active{
       background-color: green;
      } 
-
-     footer
+footer
     {
-      margin-top: 100px;
       background-color: #121212;
       position:relative;
-      padding: 25px;           
-      height:150px;
+      padding: 10px;           
+      height:50px;
       color: white;
       position: relative;
       right: 0;
@@ -165,21 +163,22 @@
  </div>      
       
 
-<footer class="container-fluid">
+<footer class="container-fluid" >
   <div class="row">
-    <div class="col-sm-6">   
-       <ul class="links" >        
-        <a href="https://github.com/nileshprasad137/find_nearby"><span class="fa fa-github" style="font-size:75px;"></span><b>Fork me on GitHub</a></b></li>        
-      </ul>
+    <div class="col-sm-6">                  
+        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;ForkMe on GitHub</a>   
     </div>
 
 
-     <div class="col-sm-6"> 
-        <p style="text-align:right"><b><i>Contact Me:<br>prasadnilesh96@gmail.com</p></i></b><hr>
-          
-        <p style="text-align:right"><b><i>Copyright &copy NILESH PRASAD</p></i></b> 
-     </div>      
+     <div class="col-sm-6 "  > 
+        <b ><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;prasadnilesh96@gmail.com</p></i></b>     
+     </div> 
+        
 </footer>
+
+
+
+
 
 </body>
 </html>
