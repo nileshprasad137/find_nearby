@@ -12,6 +12,14 @@
   <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDmFqQa3GmRdYRtITKJnv3qF3-tsL5H2A&v=3.exp&sensor=false&libraries=places"></script>
+  <script type="text/javascript">
+               function initialize() {
+                       var input = document.getElementById('place_location');
+                       var autocomplete = new google.maps.places.Autocomplete(input);
+               }
+               google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
   
   <script src="https://use.fontawesome.com/4ade0e5ef1.js"></script>
   <style type="text/css">
@@ -121,7 +129,7 @@
         <form role="form"  method="POST" action="results_display.php">
           
           <div class="form-group" >
-            <input type="text" class="form-control" name="location" placeholder="Enter the district or city name" style="align:center"/>                                       
+            <input type="text" class="form-control" name="location" id="place_location" placeholder="Enter the district or city name"  style="align:center"/>                                       
           </div>
           
           <div class="form-group">
@@ -149,7 +157,7 @@
           </div>
 
           <div class="col-xs-6 col-sm-6 col-md-6">
-              <input type="submit" name="submit_mes" value="submit" class="btn btn-lg btn-success btn-block"><hr>
+              <input type="submit" name="submit_mes" value="SEARCH" class="btn btn-lg btn-success btn-block"><hr>
           </div>
 
         </form>

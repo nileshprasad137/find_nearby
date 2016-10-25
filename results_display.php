@@ -172,7 +172,7 @@
                {
                   if(!isset($obj["results"][$i]["name"]))
                   {
-                    echo "<b>We were able to show only these many results.";
+                    echo "<b>We were able to show only these many results.</b><br><br><br><br>";
                     break;
                   }
                   else
