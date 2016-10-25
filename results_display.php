@@ -48,6 +48,21 @@
       left: 0;
     }
 
+    .overlay
+     {
+       background:transparent; 
+       position:relative; 
+       width:640px;
+       height:480px; /* your iframe height */
+       top:480px;  /* your iframe height */
+       margin-top:-480px;  /* your iframe height */
+    }
+    .fixedContainer
+     {    
+    position: fixed;    
+    margin-left: 10px;    
+    }
+
 
      
 
@@ -133,16 +148,17 @@
               $formal_location=$loc_obj["results"][0]["formatted_address"];
 
               echo "<br>
-              <div class='container-fluid' style='font-family:'Marcellus',serif;'>
-                  <b><i>We are showing results for this location<b>(".$formal_location.")</b><i>
-                  <br><i>Were you looking for the same?</i><br></div>";
+                     <div class='container-fluid' style='font-family:'Marcellus',serif;'>
+                        <b><i>We are showing results for this location(".$formal_location.")</b></i>
+                     </div>";
+                      
               echo "<br><br>";
           
               /*-----to be put inside function--------
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
               */  
               
-                        $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$_POST['keyword']. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$_POST['keyword']. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
 
                   
 
@@ -185,7 +201,7 @@
                     
                    
                           echo '
-                          <div class="container">
+                          <div class="container-fluid">
                               <div class="jumbotron3" style="background-color:#9CDEBA;font-size:20px;margin-left:20px;padding-left:20px;padding-top:25px;padding-bottom:25px;">
                                   <b>'.$obj["results"][$i]["name"].
                               '</div><br><br>';
@@ -206,6 +222,30 @@
       ?>      
         
       </div>
+
+      <div class="col-md-6 " id="map" style="position:relative">
+                                        <?php 
+                                        
+                                            echo '
+                                                    <div class="overlay" onClick="style.pointerEvents="none" "></div>
+                                                      <div class="fixedContainer">
+                                                      <iframe 
+                                                        width="630"
+                                                        height="460"                                                        
+                                                        frameborder="0" style="border:0"
+                                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAnPd6rDXQ8pUSBOkvy5TCI5PCDUFQXTdk
+                                                          &q='.$addr.'" allowfullscreen>
+
+                                                      </iframe></div>';
+
+                                                        
+
+
+                                            
+
+                                         ?>
+                                </div>      
+
   </div>
 
 
