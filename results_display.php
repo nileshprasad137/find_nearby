@@ -88,39 +88,29 @@ $looking_for=$_SESSION['key_val'];
 
  <body>
   
+  
   <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.php ">FindNearby</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">           
-        <li>
-            <!--<span role="form"  method="POST" action="results_display.php">                 
-                  <input type="text" class="form-control" name="diff_location" id="diff_address" placeholder="Enter a different address.."  />
-            </span> 
-            -->
-            <form role="search" class="navbar-form navbar-left" method="POST" action="results_display.php">
-                <div class="form-group" >
-                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control" style="width:100%;">
-                </div>
 
+      <div class="row">
+         <div class="col-sm-4">
+      
+            <a class="navbar-brand" href="index.php ">FindNearby</a>
+          </div>
+       
+          <div class= "col-sm-8">
                 
-            </form>
+                      <form role="search" class="navbar-form " method="POST" action="results_display.php">
+                          <div class="form-group" >
+                              <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control" style="width:100%;">
+                          </div>
 
-            
-            
-         </li>   
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">        
-        <li  ><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> AboutUs</a></li>  
-      </ul>
+                          
+                      </form>
+            </div>
+        </div>
+    
     </div>
   </div>
 </nav>
