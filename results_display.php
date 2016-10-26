@@ -96,7 +96,7 @@ $looking_for=$_SESSION['key_val'];
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.php">FindNearby</a>
+      <a class="navbar-brand" href="index.php ">FindNearby</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">           
@@ -107,7 +107,7 @@ $looking_for=$_SESSION['key_val'];
             -->
             <form role="search" class="navbar-form navbar-left" method="POST" action="results_display.php">
                 <div class="form-group" >
-                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control">
+                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control" style="width:300px;">
                 </div>
 
                 
@@ -118,11 +118,8 @@ $looking_for=$_SESSION['key_val'];
          </li>   
 
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
+      <ul class="nav navbar-nav navbar-right">        
         <li  ><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> AboutUs</a></li>  
-            
-
       </ul>
     </div>
   </div>
@@ -294,12 +291,12 @@ $looking_for=$_SESSION['key_val'];
 
 <footer style="position:fixed">
   <div class="row">
-    <div class="col-sm-6">                  
+    <div class="col-sm-4">                  
         <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
     </div>
-
-
-     <div class="col-sm-6 "  > 
+    <div class="col-sm-4">              
+    </div>
+     <div class="col-sm-4"  > 
         <b >&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
      </div> 
         

@@ -91,9 +91,8 @@ session_start();
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active "><a href="#">Home</a></li>
-   
-        <li><a href="#"><span class="glyphicon glyphicon-search" ></span> Search</a></li>     
+        <li class="active "><a href="#">Home</a></li>  
+           
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="active "><a href="signup.php"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
@@ -179,12 +178,13 @@ session_start();
 
 <footer class="container-fluid" >
   <div class="row">
-    <div class="col-sm-6">                  
+    
+     <div class="col-sm-4">                  
         <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
     </div>
-
-
-     <div class="col-sm-6 "  > 
+    <div class="col-sm-4">              
+    </div>
+     <div class="col-sm-4"  > 
         <b >&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
      </div> 
         
