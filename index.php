@@ -53,12 +53,13 @@
      .active{
       background-color: green;
      } 
-footer
+    footer
     {
       background-color: #121212;
+      margin-top:30px;
       position:relative;
       padding: 10px;           
-      height:50px;
+      height:60px;
       color: white;
       position: relative;
       right: 0;
@@ -132,7 +133,7 @@ footer
           
           <div class="form-group">
             <select class="form-control" name="keyword">                                                
-              <option value="fire_station" >Fire Station</option><!--1-->
+              
               <option value="doctor" >Doctor</a></option><!--2-->
               <option value="hospital" >Hospital</option><!--3-->
               <option value="atm" >ATM</option><!--4-->
@@ -149,6 +150,7 @@ footer
               <option value="gas_station" >Gas Station</option><!--15-->
               <option value="taxi_stand" >Taxi Stand</option><!--16-->
               <option value="pharmacy" >Pharmacy</option><!--17-->
+              <option value="fire_station" >Fire Station</option><!--1-->
               
             </select> 
  
@@ -166,12 +168,12 @@ footer
 <footer class="container-fluid" >
   <div class="row">
     <div class="col-sm-6">                  
-        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;ForkMe on GitHub</a>   
+        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
     </div>
 
 
      <div class="col-sm-6 "  > 
-        <b ><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;prasadnilesh96@gmail.com</p></i></b>     
+        <b >&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
      </div> 
         
 </footer>

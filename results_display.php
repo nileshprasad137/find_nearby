@@ -106,14 +106,19 @@
                 if($_POST['location']==" " )
                     {
                       echo " Enter the address above...";
+
                     }//not working....why?
 
 
               //$location_length = strlen($_POST['location'])  ;
-              $addr=str_replace(" ","+",$_POST['location']);
+
+              //$addr=str_replace(" ","+",$_POST['location']);
+
               //done to replace empty spaces by '+' sign as google api requires it.
+              $addr=urlencode($_POST['location']);
               
               $location_url="https://maps.googleapis.com/maps/api/geocode/json?address=".$addr;
+              //echo '<br><br><br>'.$location_url;
 
               //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=500&type=restaurant&name=cruise&key=YOUR_API_KEY
 
@@ -225,7 +230,7 @@
                                                         height="460"                                                        
                                                         frameborder="0" style="border:0"
                                                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAnPd6rDXQ8pUSBOkvy5TCI5PCDUFQXTdk
-                                                          &q='.$addr.'" allowfullscreen>
+                                                          &q='.$_POST['location'].'" allowfullscreen>
 
                                                       </iframe></div>';
 
@@ -244,12 +249,12 @@
 <footer style="position:fixed">
   <div class="row">
     <div class="col-sm-6">                  
-        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;ForkMe on GitHub</a>   
+        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
     </div>
 
 
      <div class="col-sm-6 "  > 
-        <b ><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;prasadnilesh96@gmail.com</p></i></b>     
+        <b >&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
      </div> 
         
 </footer>
