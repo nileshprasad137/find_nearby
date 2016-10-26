@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +15,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/4ade0e5ef1.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDmFqQa3GmRdYRtITKJnv3qF3-tsL5H2A&v=3.exp&sensor=false&libraries=places"></script>
+  <script type="text/javascript">
+               function initialize() {
+                       var input = document.getElementById('diff_address');
+                       var autocomplete = new google.maps.places.Autocomplete(input);
+               }
+               google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
+
   <style type="text/css">
     
 
@@ -71,13 +83,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="index.php">FindNearby</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">FindNearby</a></li>
-   
-        <li><a href="#"><span class="glyphicon glyphicon-search" ></span> Search</a></li>     
+      <ul class="nav navbar-nav">           
+        <li>
+            <!--<span role="form"  method="POST" action="results_display.php">                 
+                  <input type="text" class="form-control" name="diff_location" id="diff_address" placeholder="Enter a different address.."  />
+            </span> 
+            -->
+            <form role="search" class="navbar-form navbar-left" method="POST" action="results_display.php">
+                <div class="form-group" >
+                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control">
+                </div>
+
+                
+            </form>
+
+            
+            
+         </li>     
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -91,6 +116,8 @@
 
 
 
+
+
     <div class="container row" id="results" style="margin-top:120px;">
 
       <div class="col-md-6" >
@@ -99,8 +126,12 @@
         /*if($_POST['location']==" " )
         {
         echo " Enter the address above...";
-        }
-            */if (isset($_POST['submit_mes'])) 
+
+        }     
+            */
+        
+
+        if (isset($_POST['submit_mes'])||($_POST['location'])) 
               {
 
                 if($_POST['location']==" " )
@@ -145,7 +176,7 @@
 
               echo "<br>
                      <div class='container-fluid' style='font-family:'Marcellus',serif;'>
-                        <b><i>We are showing results for this location(".$formal_location.")</b></i>
+                        <b><i>We are showing results for this location(".$_POST['location'].")</b></i>
                      </div>";
                       
               echo "<br><br>";
@@ -154,7 +185,7 @@
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
               */  
               
-              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$_POST['keyword']. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=1500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
 
                   
 
@@ -180,7 +211,7 @@
 
                }
                */
-               for($i=0;$i<15;$i++)
+               for($i=0;$i<25;$i++)
                {
                   if(!isset($obj["results"][$i]["name"]))
                   {

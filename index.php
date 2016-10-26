@@ -128,7 +128,7 @@
         <form role="form"  method="POST" action="results_display.php">
           
           <div class="form-group" >
-            <input type="text" class="form-control" name="location" id="place_location" placeholder="Enter the district or city name"  style="align:center"/>                                       
+            <input type="text" class="form-control" name="location" id="place_location" placeholder="Enter the address of the location.."  style="align:center"/>                               
           </div>
           
           <div class="form-group">
