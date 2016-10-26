@@ -47,7 +47,7 @@ $looking_for=$_SESSION['key_val'];
       padding-left: 50px;
       padding-bottom: 30px;
       padding-top:30px;
-      color:green;
+      color:white;
       height: 100px;
       text-align: center;
       font-family: 'Carter One', cursive;
@@ -107,7 +107,7 @@ $looking_for=$_SESSION['key_val'];
             -->
             <form role="search" class="navbar-form navbar-left" method="POST" action="results_display.php">
                 <div class="form-group" >
-                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control" style="width:300px;">
+                    <input type="text" id="diff_address" name="location"  placeholder="change location.." class="form-control" style="width:100%;">
                 </div>
 
                 
