@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,8 +135,8 @@
           </div>
           
           <div class="form-group">
-            <select class="form-control" name="keyword">                                                
-              
+            <select class="form-control" name="keyword">            
+
               <option value="doctor" >Doctor</a></option><!--2-->
               <option value="hospital" >Hospital</option><!--3-->
               <option value="atm" >ATM</option><!--4-->
@@ -162,7 +165,16 @@
 
         </form>
         <!-- end form-->
+
  </div>      
+
+ <?php
+
+ if (isset($_POST['submit_mes']))
+  { 
+      $_SESSION['key_val'] = $_POST['keyword'];
+  }
+?>
       
 
 <footer class="container-fluid" >

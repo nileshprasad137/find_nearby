@@ -1,5 +1,18 @@
 
+<?php
+session_start();
+$looking_for=$_SESSION['key_val'];
 
+?>
+
+<?php
+
+ if (isset($_POST['submit_mes']))
+  { 
+      $_SESSION['key_val'] = $_POST['keyword'];
+  }
+  $looking_for=$_SESSION['key_val'];
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -102,7 +115,8 @@
 
             
             
-         </li>     
+         </li>   
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -129,6 +143,7 @@
 
         }     
             */
+        //echo $looking_for;
         
 
         if (isset($_POST['submit_mes'])||($_POST['location'])) 
@@ -185,7 +200,7 @@
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
               */  
               
-              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=1500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
 
                   
 
