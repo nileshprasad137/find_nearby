@@ -76,7 +76,8 @@ $looking_for=$_SESSION['key_val'];
     {
 
       background-color: #121212;
-      position:relative;
+      
+      color:white;
 
     }
 
