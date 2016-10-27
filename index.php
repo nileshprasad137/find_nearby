@@ -95,10 +95,10 @@ session_start();
            
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active "><a href="signup.php"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
-
+        <!--<li class="active "><a href="signup.php"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
         <li class="active "><a href="#myModal" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
-        <li class="active "><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> AboutUs</a></li>  
+        -->
+        <li class="active "><a href="about.php"><span class="glyphicon glyphicon-menu-hamburger"></span> About</a></li>  
             
 
       </ul>

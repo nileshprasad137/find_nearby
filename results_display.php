@@ -196,7 +196,7 @@ $looking_for=$_SESSION['key_val'];
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
               */  
               
-              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=1500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=2000&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
 
                   
 
@@ -222,7 +222,7 @@ $looking_for=$_SESSION['key_val'];
 
                }
                */
-               for($i=0;$i<25;$i++)
+               for($i=0;$i<30;$i++)
                {
                   if(!isset($obj["results"][$i]["name"]))
                   {
