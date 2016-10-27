@@ -187,7 +187,7 @@ $looking_for=$_SESSION['key_val'];
               $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type=doctor&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';    
               */  
               
-              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
+              $link ="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=".$lat.','.$lng.'&radius=1500&type='.$looking_for. '&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0 ';      
 
                   
 
@@ -233,11 +233,32 @@ $looking_for=$_SESSION['key_val'];
                           <div class="container-fluid">
                               <div class="jumbotron3" style="background-color:#9CDEBA;font-size:20px;margin-left:20px;padding-left:20px;padding-top:25px;padding-bottom:25px;">
                                   <b>'.$obj["results"][$i]["name"].
-                              '</div><br><br>';
+                              '</div></b><br><br>';
                           echo '<ul type="square" >
-                                 <li><b><i>Address:'.$obj["results"][$i]["vicinity"].
-                                 '</i></ul><br><hr></div>';
+                                 <li><b><i>Address:'.$obj["results"][$i]["vicinity"].'</i></b><br></li>';
 
+                            if (isset($obj["results"][$i]["formatted_phone_number"])) 
+                                  {
+                                       echo '<li><b><i>Contact:'.$obj["results"][$i]["formatted_phone_number"].'</i></b><br></li>'  ;                                 
+                                 }
+                            if(isset($obj["results"][$i]["website"]))    
+                            {
+                                       echo '<li><b><i>Website:'.$obj["results"][$i]["website"].'</i></b><br></li>';
+                            } 
+                                 
+                                 if(isset($obj["results"][$i]["rating"]))
+                            {
+                                       echo '<li><b><i>Ratings:'.$obj["results"][$i]["rating"].'</i></b><br></li>';
+
+                            }
+                            if(isset($obj["results"][$i]["url"]))
+                            {
+                                      echo '<li><b><i>Find on map:'.$obj["results"][$i]["url"].'</i></b><br></li>';
+
+                            }
+
+                                 
+                                 echo "</ul><br><hr></div>";
                           
                   }  
 
@@ -281,7 +302,7 @@ $looking_for=$_SESSION['key_val'];
 
 <footer style="position:fixed">
   <div class="row">
-    <div class="col-sm-4">                  
+    <div class="col-sm-4 ">                  
         <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
     </div>
     <div class="col-sm-4">              
