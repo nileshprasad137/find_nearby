@@ -60,7 +60,7 @@ $looking_for=$_SESSION['key_val'];
       background-color: green;
      } 
 
-     footer
+     #lg_devices_foot
     {
       background-color: #121212;
       position:relative;
@@ -72,6 +72,14 @@ $looking_for=$_SESSION['key_val'];
       bottom: 0;
       left: 0;
     }
+       #sm_devices_foot
+    {
+
+      background-color: #121212;
+      position:relative;
+
+    }
+
 
         .fixedContainer
      {    
@@ -317,7 +325,7 @@ $looking_for=$_SESSION['key_val'];
   
 
 
-<footer style="position:fixed;">
+<footer class=" hidden-xs hidden-sm" id="lg_devices_foot" style="position:fixed;">
   
     <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 ">                  
         <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;"></a> </span>&nbsp;&nbsp;<b>Fork Me on GitHub</b>  
@@ -330,6 +338,22 @@ $looking_for=$_SESSION['key_val'];
   
         
 </footer>
+
+
+<footer class="container-fluid hidden-md hidden-lg" id="sm_devices_foot">
+  
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 ">                  
+        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;"></a> </span>&nbsp;&nbsp;<b>Fork Me on GitHub</b>  
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 ">              
+    </div>
+     <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12"  > 
+        <b >&nbsp;&nbsp;<i class="fa fa-envelope" ></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
+     </div> 
+  
+        
+</footer>
+
 
 
 
