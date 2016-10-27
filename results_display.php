@@ -121,7 +121,7 @@ $looking_for=$_SESSION['key_val'];
 
     <div class="container row" id="results" style="margin-top:120px;">
 
-      <div class="col-md-6" >
+      <div class="col-sm-12 col-md-6 col-xs-12 col-lg-6 " >
       <?php
 
         /*if($_POST['location']==" " )
@@ -273,14 +273,14 @@ $looking_for=$_SESSION['key_val'];
         
       </div>
 
-      <div class="col-md-6 " id="map" style="position:relative">
+      <div class="col-md-6  col-lg-6 hidden-xs hidden-sm "  id="map" style="position:relative">
                                         <?php 
                                         
                                             echo '
                                                     
                                                       <div class="fixedContainer">
                                                       <iframe 
-                                                        width="630"
+                                                        width="650"
                                                         height="460"                                                        
                                                         frameborder="0" style="border:0"
                                                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAnPd6rDXQ8pUSBOkvy5TCI5PCDUFQXTdk
@@ -297,22 +297,39 @@ $looking_for=$_SESSION['key_val'];
                                 </div>      
 
   </div>
+  <div class="col-xs-12 col-sm-12 hidden-md hidden-lg"  id="map" style="position:relative">
+
+              <?php                                         
+                                    echo '
+                                                    
+                                                      <div class="container-fluid">
+                                                      <iframe 
+                                                        width="380"
+                                                        height="300"                                                        
+                                                        frameborder="0" style="border:0"
+                                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAnPd6rDXQ8pUSBOkvy5TCI5PCDUFQXTdk
+                                                          &q='.$_POST['location'].'" allowfullscreen>
+
+                                                      </iframe></div>';                                        
+
+                ?>
+   </div>     
+  
 
 
-
-<footer style="position:fixed">
-  <div class="row">
-    <div class="col-sm-4 ">                  
-        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;color:white;"></span>&nbsp;&nbsp;<b>Fork Me on GitHub</a> </b>  
+<footer style="position:fixed;">
+  
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 ">                  
+        <a href="https://github.com/nileshprasad137/find_nearby">&nbsp;<span class="fa fa-github" style="font-size:25px;"></a> </span>&nbsp;&nbsp;<b>Fork Me on GitHub</b>  
     </div>
-    <div class="col-sm-4">              
+    <div class="col-sm-4 col-md-4 col-lg-4 ">              
     </div>
-     <div class="col-sm-4"  > 
-        <b >&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
+     <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12"  > 
+        <b >&nbsp;&nbsp;<i class="fa fa-envelope" ></i>&nbsp;&nbsp;prasadnilesh96@gmail.com</p></i></b>     
      </div> 
+  
         
 </footer>
-
 
 
 
