@@ -133,6 +133,13 @@ session_start();
               <option value="taxi_stand" >Taxi Stand</option><!--16-->
               <option value="pharmacy" >Pharmacy</option><!--17-->
               <option value="fire_station" >Fire Station</option><!--1-->
+              <option value="meal_takeaway" >Meal takeaway</option><!--1-->
+              <option value="parking" >Parking</option><!--1-->
+              <option value="physiotherapist" >Physiotherapist</option><!--1-->
+              <option value="cafe" >Cafe</option><!--1-->
+              <option value="book_store" >Book store</option><!--1-->
+              <option value="gym" >Gym</option><!--1-->
+
               
             </select> 
  
