@@ -237,7 +237,12 @@ $looking_for=$_SESSION['key_val'];
                     echo "<br><br>";
                     */
                     
-                   
+                          $place_ref=$obj["results"][$i]["place_id"];
+                          //echo $place_ref;
+                          $place_details_url="https://maps.googleapis.com/maps/api/place/details/json?placeid=".$place_ref.'&key=AIzaSyDtRVL608rSdYKjmMIlgRNwRgkqDU0zhi0';
+                           $details_cont = file_get_contents($place_details_url);
+                           $details_obj = json_decode($details_cont,true); 
+
                           echo '
                           <div class="container-fluid">
                               <div class="jumbotron3" style="background-color:#9CDEBA;font-size:20px;margin-left:20px;padding-left:20px;padding-top:25px;padding-bottom:25px;">
@@ -246,23 +251,24 @@ $looking_for=$_SESSION['key_val'];
                           echo '<ul type="square" >
                                  <li><b><i>Address:'.$obj["results"][$i]["vicinity"].'</i></b><br></li>';
 
-                            if (isset($obj["results"][$i]["formatted_phone_number"])) 
+                            if (isset($details_obj["result"]["formatted_phone_number"])) 
                                   {
-                                       echo '<li><b><i>Contact:'.$obj["results"][$i]["formatted_phone_number"].'</i></b><br></li>'  ;                                 
+                                       echo '<li><b><i>Contact:'.$details_obj["result"]["formatted_phone_number"].'</i></b><br></li>'  ;                                 
                                  }
-                            if(isset($obj["results"][$i]["website"]))    
+                            if(isset($details_obj["result"]["website"]))    
                             {
-                                       echo '<li><b><i>Website:'.$obj["results"][$i]["website"].'</i></b><br></li>';
+                                       echo '<li><b><i>Website:<a >'.$details_obj["result"]["website"].'</a></i></b><br></li>';
                             } 
                                  
-                                 if(isset($obj["results"][$i]["rating"]))
+                                 if(isset($details_obj["result"]["rating"]))
                             {
-                                       echo '<li><b><i>Ratings:'.$obj["results"][$i]["rating"].'</i></b><br></li>';
+                                       echo '<li><b><i>Ratings:'.$details_obj["result"]["rating"].'</i></b><br></li>';
 
                             }
-                            if(isset($obj["results"][$i]["url"]))
+                            
+                            if(isset($details_obj["result"]["url"]))
                             {
-                                      echo '<li><b><i>Find on map:'.$obj["results"][$i]["url"].'</i></b><br></li>';
+                                      echo '<li><b><i>Find on map:<a>'.$details_obj["result"]["url"].'</a></i></b><br></li>';
 
                             }
 
