@@ -257,7 +257,7 @@ $looking_for=$_SESSION['key_val'];
                                  }
                             if(isset($details_obj["result"]["website"]))    
                             {
-                                       echo '<li><b><i>Website:<a >'.$details_obj["result"]["website"].'</a></i></b><br></li>';
+                                       echo '<li><b><i>Website:<a target="_blank" href='.$details_obj["result"]["website"].'>Open in a new tab. </a></i></b><br></li>';
                             } 
                                  
                                  if(isset($details_obj["result"]["rating"]))
@@ -268,7 +268,7 @@ $looking_for=$_SESSION['key_val'];
                             
                             if(isset($details_obj["result"]["url"]))
                             {
-                                      echo '<li><b><i>Find on map:<a>'.$details_obj["result"]["url"].'</a></i></b><br></li>';
+                                      echo '<li><b><i>Find on map:<a target="_blank" href='.$details_obj["result"]["url"].'>Open in a new tab.</a></i></b><br></li>';
 
                             }
 
